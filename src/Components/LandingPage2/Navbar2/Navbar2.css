@@ -1,0 +1,74 @@
+.navbar2{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    color: #fff;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.7) 10%, transparent);
+}
+.navbar2-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar2-left ul{
+display: flex;
+list-style: none;
+gap: 20px;
+color: #fff;
+}
+.navbar2-left ul li{
+    cursor: pointer;
+}
+
+.navbar2-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav2-icons{
+    width: 20px;
+    cursor: pointer;
+}
+.navbar2-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.navbar2-anchor{
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav2-profile{
+    width: 35px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.nav2-drop{
+    width: 17px;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: black;
+    padding: 18px 22px;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+}
+.dropdown p{
+    font-size: 13px;
+    cursor: pointer;
+}
+.navbar2-profile:hover .dropdown{
+    display: block;
+ }

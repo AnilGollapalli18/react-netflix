@@ -1,0 +1,259 @@
+.signup-logo{
+    width: 160px;
+     height: 50px;
+     padding:0px;
+}
+.signup-signin{
+    margin-left: 750px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px; 
+    border: none; 
+    background-color: transparent;
+}
+.signup1{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 70px;
+    padding: 40px;
+    color: rgb(61, 60, 60);
+}
+
+.signup-h1{
+    font-size: 43px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 10px;
+    text-align: left;
+}
+.signup-p1{
+    font-size: 18px;
+    margin-right: 440px;
+    margin-top: 60px;
+}
+.signup-p2{
+    font-size: 25px;
+    width: 400px;
+    margin-left:365px ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.signup-button{
+    font-size: 30px;
+    padding: 10px;
+    width: 550px;
+    height: 90px;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.signup-input{
+    width: 550px;
+    height: 80px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+.signup-footer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 180px;
+    font-size: 21px;
+  cursor: pointer;
+  color: #6b6a6a;
+  background-color: rgb(241, 239, 239);
+
+}
+.signup-footer h3{
+    margin-left: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 40px;
+}
+.signup-foot-con{
+  display: flex;
+  padding: 10px 5%;
+  gap: 180px;
+  text-align: left;
+}
+.signup-footer-con p{
+   margin-top: 30px;
+   margin-bottom: 60px;
+   width: 200px;
+}
+.signup-footer1{
+    display: flex;
+    column-gap: 50px;
+    row-gap: 20px;
+
+}
+.signup-footer2{
+    display:flex ;
+}
+
+.signup-lang{
+    position: relative;
+    padding: 12px;
+    width: 170px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.signup-footer h4{
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .navbar a{
+        padding: 20px ;
+        width: 100%;
+    }
+    .signup-logo{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .signup-signin{
+         border: none;
+         background: none;
+         font-size: 30px;
+         margin-left: 140px;
+         width: 100%;
+    }
+    .signup-hr{
+        margin-top: 50px;
+    }
+    .signup-h1 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 50px;
+    }
+
+    .signup-p1,
+    .signup-p2 {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 27px;
+    }
+
+    .signup-button,
+    .signup-input {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .signup-footer1{
+        flex-direction: column;
+        row-gap: 0px;
+        margin-left: 22px;
+        font-size: 25px;
+    }
+    .signup-footer2{
+        flex-direction: column;
+        row-gap: 30px;
+        font-size: 25px;
+        
+    }
+    .signup-lang{
+        position: relative;
+        top: 200px;
+    }
+    .signup-h3{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .signup1 {
+        padding: 20px;
+    }
+
+    .signup-h1 {
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .signup-p1,
+    .signup-p2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .signup-button,
+    .signup-input {
+        width: 100%;
+        font-size: 18px;
+        height: 70px;
+    }
+
+    .signup-button {
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .signup-footer {
+        height: auto;
+    }
+
+    .signup-foot-con {
+       flex-direction: row;
+        gap: 10px;
+        padding: 10px 6%;
+        font-size: 15px;
+    }
+
+    .signup-footer-con p {
+        margin: 0 auto;
+        text-align: center;
+        flex-direction: row;
+    }
+    .signup-footer1{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .signup-foot-in{
+        position: relative;
+        bottom: 70px;
+    }
+    .signup-footer2{
+        flex-direction: column;
+        margin-left: 30px;
+        row-gap: 40px;
+    }
+    .signup-lang{
+        position: relative;
+        top: 110px;
+        width: 100px;
+        font-size: 15px;
+        height: 50px;
+        padding: 7%;
+    }
+    .signup-h3{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,281 @@
+.signin-logo{
+  width:150px;
+   height: 50px;
+}
+.signin1{
+    height: 100vh;
+    text-align: center;
+    padding: 60px;
+    color: rgb(61, 60, 60);
+    background: linear-gradient(rgba(0,0,0,0.705),rgba(0,0,0,0.5)), url('https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.signinform-cont{
+    margin-top: 60px;
+     border: 1px solid;
+     width: 40%;
+     height: 600px;
+     background-color: rgba(0, 0, 0, 0.76);
+     border-radius: 10px;
+     padding: 30px;
+     margin-left: 370px;
+     color: #fff;
+     border: none;
+}
+.signin-h1{
+    margin-right: 250px;
+    margin-top: 0px;
+}
+.signinform-cont input{
+    font-size: 20px;
+    width: 400px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-inline: 40px;
+    background-color: #6b6a6a83;
+    color: #fff;
+    outline-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.input-cont1-signin,
+.input-cont2-signin{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.home-email-signin,
+.home-password-signin{
+    width: 500px;
+    height: 60px;
+    font-size: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(135, 207, 235, 0.192);
+    color: #fff;
+}
+
+
+.floating-4label4,
+.floating-5label5{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.952);
+    transition: 0.2s ease all;
+    pointer-events: none;
+
+}
+.home-email-signin:focus + .floating-4label4,
+.home-email-signin:valid + .floating-4label4 {
+    font-size: 13px;
+    top: 11px;
+    color: rgba(245, 248, 245, 1);
+}
+.home-password-signin:focus + .floating-5label5,
+.home-password-signin:valid + .floating-5label5 {
+    font-size: 13px;
+    top: 13px;
+    color: rgba(245, 248, 245, 1);
+}
+ 
+.signin-submit{
+    width: 390px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+.signin-h3{
+    margin-top: 20px;
+   margin-bottom: 20px;
+}
+.signin-use{
+    font-size: 20px;
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #6b6a6a;
+    border: none;
+}
+
+
+.signin-f{
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+.signin-new{
+    color: #6b6a6a;
+    margin-top:30px;
+    margin-right: 80px;
+}
+.signin-check{
+    margin-top: 25px;
+    margin-right: 190px;
+}
+.signin-learn{
+    font-size: 18px;
+    color: #6b6a6a;
+    width: 400px;
+    text-align: left;
+    margin-left: 445px;
+    margin-top: 10px;
+}
+.signin-f-button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.signin-footer{
+    width: 100%;
+    height: 100vh;
+    font-size: 21px;
+    cursor: pointer;
+    color: gray;;
+    background-color: black;
+}
+.signin-footer-h4{
+    padding: 0px 5%;
+}
+.signin-footer-con{
+    width: 100%;
+  display: flex;
+  padding: 10px 6%;
+  gap: 170px;
+  text-align: left;
+}
+.signin-footer-con p{
+   margin-top: 15px;
+   margin-bottom: 20px;
+   text-decoration: underline;
+}
+.signin-footer-top{
+    display: flex;
+    column-gap: 40px;
+}
+.signin-footer-down{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+}
+
+.signin-lang{
+    position: relative;
+    padding: 12px;
+    width: 170px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.signin-footer h4{
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1200px) {
+    .signin1{
+      width: 100%;
+    }
+    .background{
+      width: 100%;
+    }
+    .signin-logo {
+      width: 100%;
+      height: 100%;
+    }
+    .signin-h1{
+      width: 100%;
+      margin-left: -190px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+    .signinform-cont{
+      width: 650px;
+       margin-left: 100px;
+       margin-top: 150px;
+       height: 800px;
+       padding: 10px;
+    }
+    .signinform-cont input{
+      width: 80%;
+    }
+
+    .floating-4label4,
+    .floating-5label5{
+       margin-left: 30px;
+    }
+    .signin-submit{
+      margin-top: 50px;
+      width: 78%;
+      height: 70px;
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+    .signin-use{
+      margin-top: 20px;
+      width: 76%;
+    }
+    .signin-footer{
+      margin-top: -40px;
+
+    }
+    .signin-learn{
+      margin-left: 255px;
+    }
+    .signin-footer-con{
+      display: grid;
+      row-gap: 0px;
+      font-size: 25px;
+    }
+    .signin-footer-top,
+    .signin-footer-down{
+      margin-left: 80px;
+      font-size: 28px;
+    }
+    .signin-footer-top{
+      column-gap: 200px;
+    }
+    .signin-lang{
+      position: relative;
+      top: 230px;
+    }
+    .signin-footer-h4{
+      font-size: 35px;
+      font-weight: 400;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width:480px) {
+     .signin1{
+       width: 100%;
+     } 
+     .signin-footer{
+        width: 100%;
+
+     } 
+     .signin-footer-con{
+      width: 100%;
+     }
+    
+  }
+  
+  

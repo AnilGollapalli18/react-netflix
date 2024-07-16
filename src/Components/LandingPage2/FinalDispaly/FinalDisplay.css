@@ -1,0 +1,26 @@
+
+
+.finaldisplay {
+    text-align: left;
+    margin-top: 150px;
+    color: #fff;
+  }
+  
+  .finaldisplay-h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .genrelist {
+    margin: 20px 0;
+  }
+  
+  .genrelist-h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .finaldispaly-error{
+    color: red;
+  }
+  
